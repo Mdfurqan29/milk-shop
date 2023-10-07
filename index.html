@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Milky</title>
+</head>
+
+<body>
+    <div id="main">
+
+        <div class="offers">
+            <marquee id="marquee" behavior="" direction="right">
+            FREE DELIVERY 24/7 Hours
+            </marquee>
+        </div>
+        <div class="nav">
+            <div class="logo">
+
+                <img src="./logo.png" alt="" >
+            </div>
+            <div class="options">
+                <a href="#milk">Milk</a>
+                <a href="#yogurt">Yogurt</a>
+                <a href="#breads">Breads</a>
+                <a href="#eggs">Eggs</a>
+                <a onclick="MyOrder()" href="#">My Order</a>
+            </div>
+        </div>
+
+
+        <div class="video-main">
+
+            <div class="video">
+                <video autoplay loop muted src="./video.mp4"></video>
+            </div>
+        </div>
+
+        <div class="section-two">
+
+            <div class="headings">
+                <h1 id="all-products">All Products</h1>
+            </div>
+            <div class="all-card" id="allProducts">
+            </div>
+        </div>
+
+    <div class="section-three">
+        <div class="headings" id="head1">
+            <h1 id="milk">Milk</h1>
+        </div>
+        <div class="milk" id="allMilk">
+        </div>
+    </div>
+    <div class="section-four">
+        <div class="headings" id="head2">
+            <h1 id="yogurt">Yogurt</h1>
+        </div>
+        <div class="Yogurt" id="allyogurt">
+
+        </div>
+    </div>
+    <div class="section-five">
+        <div class="headings" id="head3">
+            <h1 id="breads">Breads</h1>
+        </div>
+        <div class="breads" id="allBreads">
+
+        </div>
+    </div>
+    <div class="section-six">
+        <div class="headings" id="head4">
+            <h1 id="eggs">Eggs</h1>
+        </div>
+        <div class="eggs" id="alleggs">
+        </div>
+    </div>
+    <div class="footer">
+        <div>
+            <div class="headings" id="head5">
+                <h1>Informations</h1>
+
+            </div>
+            <ul>
+                <li>Owner : MD Furqan</li>
+                <li>25 Years Of Providing Fresh & Good Quality Items!</li>
+                <li><h2>CONTACT US!</h2></li>
+                <li>Cell Phone : 03112729757</li>
+                <li>Email : mdfurqanahmed14@gmail.com</li>
+            </ul>
+        </div>
+        <div class="offers">
+            <marquee id="marquee" behavior="" direction="right">
+                This Website Developed By MD FURQAN😍
+            </marquee>
+        </div>
+    </div>
+    </div>
+
+<div id="my">
+    <div id="back">
+        <i onclick="backs()" class="fa-solid fa-arrow-left"></i>
+    <h1>My Orders</h1>
+        <div id="myorders">
+ 
+        </div>
+</div>
+</div>
+
+    <div id="inputs">
+        <div id="back">
+                   <i onclick="back()" class="fa-solid fa-arrow-left"></i>
+                   <div id="orderitem">
+            
+                   </div>
+                   <div class="customer">
+                    <input type="text" name="" id="name" placeholder="Enter Your Name">
+                    <input type="number" name="" id="number" placeholder="Enter Phone Number">
+                    <input type="text" name="" id="address" placeholder="Enter Your address">
+                    <button id="OrderNow" onclick="OrderNow()">order Now</button>
+                </div>
+        </div>
+    </div>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
